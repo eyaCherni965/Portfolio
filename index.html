@@ -1,115 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mon Portfolio</title>
-    <link rel="website icon" type="png" href="imgs/portfolio.png">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="website icon" type="png" href="imgs/portfolio.png" />
+    <link rel="stylesheet" href="./styles.css" />
     <script src="./scripts.js"></script>
     <!-- style d'écriture-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-
-</head>
-<body>
-   <header>
-   <a href="#" class="logo-holder"> 
-    <div class="logo">L</div> 
-    <div class="logo-text">Portfolio Website</div>
-   </a>
-
-    <nav>
-       <ul id="menu">
-        <li>
-            <a href="#">Acceuil</a>
-        </li>
-        <li>
-            <a href="#">Compétences</a>
-        </li>
-        <li>
-            <a href="#">Projets</a>
-        </li>
-        <li>
-            <a href="#" class="button">Contactez-moi</a>
-        </li>
-       </ul>
-
-       <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();"><svg class="w-6 h-6 text-gray-800 dark:text-white" 
-        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
-        fill="none" viewBox="0 0 24 24">
-        <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
-      </svg>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">L</div>
+        <div class="logo-text">Portfolio Website</div>
       </a>
 
-    </nav>
-   </header>
-   <main>
-    <section class="hero container">
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Acceuil</a>
+          </li>
+          <li>
+            <a href="#">Compétences</a>
+          </li>
+          <li>
+            <a href="#">Projets</a>
+          </li>
+          <li>
+            <a href="#" class="button">Contactez-moi</a>
+          </li>
+        </ul>
+
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();"
+          ><svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h10"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
         <div class="hero-blue">
-            <div>
-                <h1><small>Bonjour c'est </small>Eya Cherni</h1>
-                <p>Jeune professionnelle passionnée par les technologies 
-                    et l'innovation, je recherche un stage en informatique pour 
-                    appliquer mes compétences académiques et pratiques.
-                     Enthousiaste à l'idée de contribuer au succès d'une organisation,
-                      je possède une solide capacité à résoudre des problèmes, à 
-                      apprendre rapidement et à collaborer efficacement au sein 
-                      d'équipes dynamiques. Engagée à développer des solutions innovantes, je suis 
-                    déterminée à participer activement à la réussite des projets.</p>
+          <div>
+            <h1><small>Bonjour c'est </small>Eya Cherni</h1>
+            <p>
+              Jeune professionnelle passionnée par les technologies et
+              l'innovation, je recherche un stage en informatique pour appliquer
+              mes compétences académiques et pratiques. Enthousiaste à l'idée de
+              contribuer au succès d'une organisation, je possède une solide
+              capacité à résoudre des problèmes, à apprendre rapidement et à
+              collaborer efficacement au sein d'équipes dynamiques. Engagée à
+              développer des solutions innovantes, je suis déterminée à
+              participer activement à la réussite des projets.
+            </p>
 
-                    <div class="call-to-action">
-                        <a href="#" class="button black" >Voir mon CV</a>
-                        <a href="#" class="button white" >Contactez moi</a>
-                    </div>
-                    <div class="social-links">
-                        <a href="#" ><img src="imgs/github.png"  alt="GitHub"width="48"></a>
-                        <a href="#"><img src="imgs/linkedin.png" alt="Linkedin" width="48"></a>
-
-                    </div>
-            
-                </div>
-
-
-
-        </div>
-        <div class="hero-yellow"><img src="imgs/hero-image.png" alt="Eya Cherni" width="100%">
-        </div>
-    </section>
-    <section class="logos container">
-        <div class="marquee">
-            <div class="track">
-                <img src="imgs/C_Programming_Language.png" alt="C" width="128">
-                <img src="imgs/java.png" alt="Java" width="128">
-                <img src="imgs/html.png" alt="HTML" width="128">
-                <img src="imgs/css.png" alt="CSS" width="128">
-                <img src="imgs/javascript.png" alt="JavaScript" width="128">
-                <img src="imgs/php.png" alt="PHP" width="128">
-                <img src="imgs/gnu-bash.png" alt="Bash script" width="128">
-                <img src="imgs/vscode.png" alt="VS Code" width="128">
-                <img src="imgs/mysql.png" alt="MySQL" width="128">
-                <img src="imgs/microsoft.png " alt="Microsoft Office Suite" width="128">
-                <img src="imgs/azure.png" alt="Azure" width="128">
-                <img src="imgs/image.png" alt="Canva" width="128">
-                <!--image qui se repetent pour le défilement -->
-                <img src="imgs/C_Programming_Language.png" alt="C" width="128">
-                <img src="imgs/java.png" alt="Java" width="128">
-                <img src="imgs/html.png" alt="HTML" width="128">
-                <img src="imgs/css.png" alt="CSS" width="128">
-                <img src="imgs/javascript.png" alt="JavaScript" width="128">
-                <img src="imgs/php.png" alt="PHP" width="128">
-                <img src="imgs/gnu-bash.png" alt="Bash script" width="128">
-                <img src="imgs/vscode.png" alt="VS Code" width="128">
-                <img src="imgs/mysql.png" alt="MySQL" width="128">
-                <img src="imgs/microsoft.png " alt="Microsoft Office Suite" width="128">
-                <img src="imgs/azure.png" alt="Azure" width="128">
-                <img src="imgs/image.png" alt="Canva" width="128">
-
+            <div class="call-to-action">
+              <a href="#" class="button black">Voir mon CV</a>
+              <a href="#" class="button white">Contactez moi</a>
             </div>
+            <div class="social-links">
+              <a href="#"
+                ><img src="imgs/github.png" alt="GitHub" width="48"
+              /></a>
+              <a href="#"
+                ><img src="imgs/linkedin.png" alt="Linkedin" width="48"
+              /></a>
+            </div>
+          </div>
         </div>
+        <div class="hero-yellow">
+          <img src="imgs/hero-image.png" alt="Eya Cherni" width="100%" />
+        </div>
+      </section>
+      <section class="logos container">
+        <div class="marquee">
+          <div class="track">
+            <img src="imgs/C_Programming_Language.png" alt="C" width="128" />
+            <img src="imgs/java.png" alt="Java" width="128" />
+            <img src="imgs/html.png" alt="HTML" width="128" />
+            <img src="imgs/css.png" alt="CSS" width="128" />
+            <img src="imgs/javascript.png" alt="JavaScript" width="128" />
+            <img src="imgs/php.png" alt="PHP" width="128" />
+            <img src="imgs/gnu-bash.png" alt="Bash script" width="128" />
+            <img src="imgs/vscode.png" alt="VS Code" width="128" />
+            <img src="imgs/mysql.png" alt="MySQL" width="128" />
+            <img
+              src="imgs/microsoft.png "
+              alt="Microsoft Office Suite"
+              width="128"
+            />
+            <img src="imgs/azure.png" alt="Azure" width="128" />
+            <img src="imgs/image.png" alt="Canva" width="128" />
+            <!--image qui se repetent pour le défilement -->
+            <img src="imgs/C_Programming_Language.png" alt="C" width="128" />
+            <img src="imgs/java.png" alt="Java" width="128" />
+            <img src="imgs/html.png" alt="HTML" width="128" />
+            <img src="imgs/css.png" alt="CSS" width="128" />
+            <img src="imgs/javascript.png" alt="JavaScript" width="128" />
+            <img src="imgs/php.png" alt="PHP" width="128" />
+            <img src="imgs/gnu-bash.png" alt="Bash script" width="128" />
+            <img src="imgs/vscode.png" alt="VS Code" width="128" />
+            <img src="imgs/mysql.png" alt="MySQL" width="128" />
+            <img
+              src="imgs/microsoft.png "
+              alt="Microsoft Office Suite"
+              width="128"
+            />
+            <img src="imgs/azure.png" alt="Azure" width="128" />
+            <img src="imgs/image.png" alt="Canva" width="128" />
+          </div>
+        </div>
+      </section>
+      <sections class="skills container">
+        <h2>
+          <small> À propos de moi </small>
+          Compétences
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <h3>Développement Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <ul>
+              <h3>Développement Backend</h3>
+              <li>C</li>
+              <li>JAVA</li>
+              <li>PHP</li>
+              <li>MYSQL</li>
+              <li>BASH</li>
+              <li>Assembleur</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>Quelques mots sur moi</h3>
+            <p>
+              Hi i'm Eya.xxxxx xxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxx
+              xxxxxxxxxxxxxx xxxxxxx xxxxxx xxxxxxxxx xxxxxxxxxxx
+              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            </p>
 
-    </section>
-   </main>
-</body>
+            <p>
+              222.xxxxx xxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxx
+              xxxxxxx xxxxxx xxxxxxxxx xxxxxxxxxxx
+              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            </p>
+          </div>
+        </div>
+      </sections>
+      <section class="work-experience container">
+        <h2>
+          <small>Récent</small>
+          Formations
+        </h2>
+        <div class="jobs">
+          <article>
+            <figure>
+              <div>
+                <img src="imgs/ETS-7x5-150DPI.webp" alt="Formation 1 " width="100%">
+                <figcaption>
+                  Formation - 1
+                </figcaption>
+              </div>
+            </figure>
+            <h3>Baccalauréat en Génie logiciel</h3>
+            <h5>École de technologie supérieure, Montréal </h5>
+      
+            <div>Août 2024 – Aujourd’hui</div>
+            <p>une descrption des aquis lors de cette formation</p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img src="imgs/Cégep-Maisonneuve.jpg" alt="fomation 2 -" width="100%">
+                <figcaption>
+                  Formation - 2
+                </figcaption>
+              </div>
+            </figure>
+            <h3>Sciences de la nature</h3>
+            <h5>Collège de Maisonneuve, Montréal</h5>
+            <div>Août 2022 – Mai 2024</div>
+            <p>une descrption des aquis lors de cette formation</p>
+          </article>
+          
+          
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
+
+
