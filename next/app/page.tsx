@@ -3,34 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 export default function Home() {
-
   const [menuOpen, setMenuOpen] = useState(false);
-  const [ messageInput, setMessageInput ] = useState('');
-
-  const [messages, setMessages] = useState([
-    {
-      role: 'assistant',
-      content: 'Salut ! Je suis ton chatbot, prêt à t\'aider à naviguer dans ce portfolio et ce CV. Alors, tu cherches quoi exactement ?'
-    }
-  ]);
-// @ts-ignore
-const submitForm = async (e) => {
-    e.preventDefault();
-    let newMessages = [...messages, { role: 'user', content: messageInput }]
-    setMessages(newMessages);
-    setMessageInput('');
-    const apiMessage = await fetch(
-      '/api',
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ messages: newMessages })
-      }
-    ).then(res => res.json());
-    setMessages([...newMessages, { role: 'assistant', content: apiMessage.message }]);
-  }
 
   const toggleMobileMenu = () => {
     setMenuOpen(!menuOpen);
@@ -250,40 +223,6 @@ const submitForm = async (e) => {
                 <div>Description du projet</div>
               </figcaption>
             </a>
-          </div>
-        </section>
-        <section className="chatbot container">
-          <h2>
-            <small>
-              Parlez avec moi!
-            </small>
-            Chatbot
-          </h2>
-          <div className="chatbot-blue">
-            <div className="chat-info">
-              <h3>Azure AI Chatbot</h3>
-              <p>Hey ! J'ai mis en place un chatbot qui connaît tout sur mes compétences, mon expérience et même mon CV. Tu peux lui poser des questions pour mieux comprendre mon parcours et voir ce que j'ai fait.</p>
-              <p>Si tu veux aller plus vite, tu peux aussi télécharger mon CV directement.
-      Je suis en quête de nouvelles opportunités, alors si mon
-      profil te parle, n’hésite pas à me contacter ! 🚀</p>
-              <a href="./requis/CV 2025 (1).pdf" className="button black">Télécharger CV</a>
-            </div>
-            <div className="chat-box">
-              <div className="scroll-area">
-                <ul id="chat-log">
-                  {messages.map((message, index) => (
-                    <li key={index} className={message.role === 'user' ? 'user' : ''}>
-                      <span className="avatar">{message.role === 'user' ? 'Vous' : 'AI'}</span>
-                      <div className="message">{message.content}</div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <form onSubmit={submitForm} className="chat-message">
-                <input type="text" placeholder="Salut Eya, quelles sont tes compétences ?" value={messageInput} onChange={e => setMessageInput(e.target.value)} />
-                <button className="button black">Envoyer</button>
-              </form>
-            </div>
           </div>
         </section>
       </main>
