@@ -182,10 +182,10 @@ export default function Home() {
           </h2>
           <div className="bento-grid">
             <a href="#" className="bento-item">
-              <img src="./imgs/gumball.webp" alt="Projet 1" width="100%" />
+            <img src="./pomo12.png" alt="Pomodoro" width="100%" />
               <figcaption>
-                <h4>Projet 1</h4>
-                <div>Description du projet</div>
+                <h4>Pomodoro</h4>
+                <div>Application Pomodoro intelligente développée avec React et Tailwind CSS. Elle permet de gérer son temps, personnaliser les sessions, et consulter ses statistiques. Hébergée sur Vercel pour un accès rapide en ligne.</div>
               </figcaption>
             </a>
             <a href="#" className="bento-item">
