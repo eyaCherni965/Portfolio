@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import { withRouter } from "next/router";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -48,34 +49,40 @@ export default function Home() {
               <h1><small>Bonjour c'est</small>
                 Eya Cherni
               </h1>
-              <p>
-                Jeune professionnelle passionnée par les technologies et l'innovation, je recherche un stage en informatique pour appliquer mes compétences académiques et pratiques. Enthousiaste à l'idée de contribuer au succès d'une organisation, je possède une solide capacité à résoudre des problèmes, à apprendre rapidement et à collaborer efficacement au sein d'équipes dynamiques. Engagée à développer des solutions innovantes, je suis déterminée à participer activement à la réussite des projets.
-              </p>
+              <p className= "premier">Mon parcours : de la science de la nature au cégep, puis à la deuxième année d’ingénierie à l’ETS. Bref, beaucoup de chemins tortueux, mais aucun GPS n’aurait mieux fait. Aujourd’hui, je travaille dans ma vraie passion et j’adore ça. Mon rêve ? Continuer à grandir, explorer de nouvelles technologies et faire partie de cette génération d’ingénieurs qui transforme notre société.<br /></p>
+            
+              <p >En peu de temps, je suis passée d’une connaissance minime en programmation à la création de sites web et au développement d’applications fonctionnelles, tout en continuant à apprendre chaque jour. Bienvenue sur mon portfolio ! Je vous invite à parcourir mes projets et à découvrir mes compétences, mes expériences…et à partager avec moi l’aventure captivante de créer, coder et innover.</p>
               <div className="call-to-action">
-                <a href="./requis/CV 2025 (1).pdf" className="button black">
+                <a href="/CV 2025 (1).pdf" className="button black" target="_blank">
                   Voir mon CV
                 </a>
-                <a href="mailto:chernieya2010@gmail.com" className="button white">
+                <a href="mailto:chernieya2010@gmail.com" className="button white" target="_blank">
                   Contactez-moi
                 </a>
               </div>
               <div className="social-links">
-                <a href="http://surl.li/blmwje">
+                <a href="http://surl.li/blmwje" target="_blank" >
                   <img src="./imgs/github.png" alt="GitHub" width="48" />
                 </a>
-                <a href="linkedin.com/in/eya-cherni-585392142">
+                <a href="https://www.linkedin.com/in/eyacherni" target="_blank">
                   <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
                 </a>
               </div>
             </div>
           </div>
-          <div className="hero-yellow">
+
+        {/*IMAGE DE PRÉSENTATION*/}
+         {/*<div className="hero-yellow">
             <img src="./imgs/5a830437abc3d121aba71238.png" alt="Eya Cherni" width="100%" />
-          </div>
+          </div> */}
+
+
         </section>
         <section className="logos container">
           <div className="marquee">
             <div className="track">
+
+               <img src="/nextjs-icon-dark-background.png" alt="Next.js" width="128" />
               <img src="./imgs/C_Programming_Language.png" alt="C" width="128" />
               <img src="./imgs/java.png" alt="Java" width="128" />
               <img src="./imgs/html.png" alt="HTML" width="128" />
@@ -100,6 +107,7 @@ export default function Home() {
               <img src="./imgs/microsoft.png" alt="Microsoft Office Suite" width="128" />
               <img src="./imgs/azure.png" alt="Azure" width="128" />
               <img src="./imgs/image.png" alt="Canva" width="128" />
+ 
             </div>
           </div>
         </section>
@@ -115,6 +123,9 @@ export default function Home() {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
+                <li>Next.js</li>
+                <li>React</li>
+                <li>Canva</li>
               </ul>
               <h3>Développement Backend</h3>
               <ul>
@@ -122,17 +133,18 @@ export default function Home() {
                 <li>JAVA</li>
                 <li>PHP</li>
                 <li>MYSQL</li>
-                <li>BASH</li>
+                <li>Azure</li>
+                <li>MYSQL</li>
+                <li>Microsoft Office Suite</li>
                 <li>Assembleur</li>
               </ul>
             </div>
             <div className="right-column">
-              <h3>Quelques mots sur moi</h3>
+              <h3>Compétences techniques et générales</h3>
               <p>
-                Je suis Eya Cherni, une développeuse passionnée par les technologies et l'innovation. Je recherche actuellement un stage en informatique pour appliquer mes compétences académiques et pratiques.
+               Parallèlement à mes compétences en développement, je sais <strong>résoudre</strong> des problèmes complexes, <strong>concevoir</strong> des solutions efficaces pour des applications ou des sites web, <strong>travailler</strong> en équipe sur des projets collaboratifs, <strong>communiquer</strong> clairement des idées techniques, <strong>mener</strong> des recherches pour intégrer de nouvelles technologies, <strong>documenter</strong> et <strong>rédiger</strong> du code ou des guides utilisateurs, et <strong>gérer</strong> des projets afin de respecter les délais et atteindre les objectifs.
               </p>
               <p>
-                Je suis particulièrement intéressée par le développement web et les nouvelles technologies. Mon objectif est de contribuer à des projets innovants tout en continuant à apprendre et à me perfectionner.
               </p>
             </div>
           </div>
@@ -155,7 +167,7 @@ export default function Home() {
               <h3>Baccalauréat en Génie logiciel</h3>
               <div>École de technologie supérieure, Montréal</div>
               <div>Août 2024 – Aujourd'hui</div>
-              <p>Acquisition de compétences en développement logiciel, algorithmique et gestion de projets informatiques.</p>
+              <p>À l'ÉTS en génie logiciel, j’ai acquis une <strong>solide base en programmation</strong> et j’ai été <strong>initiée à la gestion de projet Scrum</strong>, ce qui m’a permis de développer ma capacité à <strong>travailler efficacement en équipe</strong>. L’école, très <strong>axée sur la pratique</strong>, m’a offert l’occasion de <strong>mettre en application toutes les compétences théoriques</strong> que j’avais apprises, consolidant ainsi mon savoir-faire et ma confiance dans le développement logiciel.</p>
             </article>
             <article>
               <figure>
@@ -169,7 +181,7 @@ export default function Home() {
               <h3>Sciences de la nature</h3>
               <div>Collège de Maisonneuve, Montréal</div>
               <div>Août 2022 – Mai 2024</div>
-              <p>Formation scientifique générale avec spécialisation en mathématiques et physique.</p>
+              <p>Au Cégep Maisonneuve, ma formation en <strong>sciences de la nature</strong> m’a permis de développer une solide <strong>capacité d’analyse</strong>, un <strong>esprit logique</strong> et une <strong>rigueur scientifique</strong> à travers des cours en <strong>mathématiques</strong>, <strong>physique</strong> et <strong>chimie</strong>. J’ai appris à <strong>résoudre des problèmes complexes</strong>, <strong>observer et interpréter des données avec précision</strong>, et <strong>approcher chaque défi avec méthode et curiosité</strong>. Ces compétences me servent aujourd’hui dans mes projets en génie et en développement informatique , en me donnant une base solide pour aborder toutes sortes de défis techniques.</p>
             </article>
           </div>
         </section>
@@ -181,13 +193,17 @@ export default function Home() {
             Projets Réalisés
           </h2>
           <div className="bento-grid">
-            <a href="#" className="bento-item">
+            <div  className="bento-item">
             <img src="./pomo12.png" alt="Pomodoro" width="100%" />
               <figcaption>
                 <h4>Pomodoro</h4>
-                <div>Application Pomodoro intelligente développée avec React et Tailwind CSS. Elle permet de gérer son temps, personnaliser les sessions, et consulter ses statistiques. Hébergée sur Vercel pour un accès rapide en ligne.</div>
+                <div>Application Pomodoro intelligente développée avec<strong> React</strong> et <strong>Tailwind CSS</strong>. Elle permet de gérer son temps, personnaliser les sessions, et consulter ses statistiques. Hébergée sur <strong>Vercel</strong> pour un accès rapide en ligne.</div>
+                <p> 
+                <a href="https://pomodoro-tau-beige.vercel.app/" className="linkprojet" target="_blank"> Le site </a> / <a href="https://github.com/eyaCherni965/pomodoro" className="linkprojet" target="_blank"> GitHub </a> 
+
+                </p>
               </figcaption>
-            </a>
+            </div>
             <a href="#" className="bento-item">
               <img src="./imgs/gumball.webp" alt="Projet 2" width="100%" />
               <figcaption>
