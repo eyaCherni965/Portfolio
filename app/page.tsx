@@ -49,9 +49,9 @@ export default function Home() {
               <h1><small>Bonjour c'est</small>
                 Eya Cherni
               </h1>
-              <p className= "premier">Mon parcours : de la science de la nature au cégep, puis à la deuxième année d’ingénierie à l’ETS. Bref, beaucoup de chemins tortueux, mais aucun GPS n’aurait mieux fait. Aujourd’hui, je travaille dans ma vraie passion et j’adore ça. Mon rêve ? Continuer à grandir, explorer de nouvelles technologies et faire partie de cette génération d’ingénieurs qui transforme notre société.<br /></p>
+              <p className= "premier">Animée par l’envie de créer et d’innover, j’ai orienté mon parcours vers le monde de l’informatique. Mon objectif ? Continuer à grandir et faire partie de cette génération d’ingénieurs qui transforme notre société<br /></p>
             
-              <p >En peu de temps, je suis passée d’une connaissance minime en programmation à la création de sites web et au développement d’applications fonctionnelles, tout en continuant à apprendre chaque jour. Bienvenue sur mon portfolio ! Je vous invite à parcourir mes projets et à découvrir mes compétences, mes expériences…et à partager avec moi l’aventure captivante de créer, coder et innover.</p>
+              <p >En peu de temps, je suis passée d’une connaissance minime en programmation à la création de sites web et au développement d’applications fonctionnelles, tout en continuant à apprendre chaque jour. Bienvenue sur mon portfolio ! Je vous invite à parcourir mes projets et à découvrir mes compétences, mes expériences…et à partager avec moi l’aventure captivante de créer, coder et expérimenter.</p>
               <div className="call-to-action">
                 <a href="/CV 2025 (1).pdf" className="button black" target="_blank">
                   Voir mon CV
@@ -136,6 +136,7 @@ export default function Home() {
                 <li>Azure</li>
                 <li>MYSQL</li>
                 <li>Microsoft Office Suite</li>
+                <li>Bash script</li>
                 <li>Assembleur</li>
               </ul>
             </div>
