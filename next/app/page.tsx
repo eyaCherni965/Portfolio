@@ -197,20 +197,23 @@ export default function Home() {
             <img src="./pomo12.png" alt="Pomodoro" width="100%" />
               <figcaption>
                 <h4>Pomodoro</h4>
-                <div>Application Pomodoro intelligente développée avec<strong> React</strong> et <strong>Tailwind CSS</strong>. Elle permet de gérer son temps, personnaliser les sessions, et consulter ses statistiques. Hébergée sur <strong>Vercel</strong> pour un accès rapide en ligne.</div>
+                <div>Site Web développé avec<strong> React</strong> et <strong>Tailwind CSS</strong>. Il permet de gérer son temps, personnaliser les sessions, et consulter ses statistiques. Hébergé sur <strong>Vercel</strong> pour un accès rapide en ligne.</div>
                 <p> 
                 <a href="https://pomodoro-tau-beige.vercel.app/" className="linkprojet" target="_blank"> Le site </a> / <a href="https://github.com/eyaCherni965/pomodoro" className="linkprojet" target="_blank"> GitHub </a> 
 
                 </p>
               </figcaption>
             </div>
-            <a href="#" className="bento-item">
-              <img src="./imgs/gumball.webp" alt="Projet 2" width="100%" />
+            <div  className="bento-item">
+            <img src="/tris.png" alt="Simulation Tris" width="100%" />
               <figcaption>
-                <h4>Projet 2</h4>
-                <div>Description du projet</div>
+                <h4>Simulation de tris</h4>
+                <div>Curieuse de voir la simulation de six algorithmes de tri et de déterminer le plus efficace, j’ai décidé d’aller plus loin dans ce projet académique en <strong>simulant ces algorithmes en C</strong> sous <strong>Visual Studio</strong> avec <strong>WinBGIm</strong>.</div>
+                <p> 
+                <a href=" https://urls.fr/tpzA0J" className="linkprojet" target="_blank"> Démo </a> / <a href="https://github.com/eyaCherni965/Projet-simulation-de-Tris/tree/main" className="linkprojet" target="_blank"> GitHub </a> 
+                </p>
               </figcaption>
-            </a>
+            </div>
             <a href="#" className="bento-item">
               <img src="./imgs/gumball.webp" alt="Projet 3" width="100%" />
               <figcaption>
