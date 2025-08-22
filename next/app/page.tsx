@@ -214,13 +214,16 @@ export default function Home() {
                 </p>
               </figcaption>
             </div>
-            <a href="#" className="bento-item">
-              <img src="./imgs/gumball.webp" alt="Projet 3" width="100%" />
+            <div  className="bento-item">
+            <img src="/portfolio.png" alt="Mon Portfolio" width="70%" />
               <figcaption>
-                <h4>Projet 3</h4>
-                <div>Description du projet</div>
+                <h4>Mon Portfolio</h4>
+                <div>Ce portfolio est développé avec <strong>Next.js</strong> et <strong>CSS</strong>, permettant de présenter mes <strong>projets</strong>, <strong>compétences</strong> et <strong>réalisations</strong>. Il est <strong>déployé sur Vercel</strong>, offrant un accès rapide.</div>
+                <p> 
+                <a href=" https://urls.fr/tpzA0J" className="linkprojet" target="_blank"> Démo </a> / <a href="https://github.com/eyaCherni965/Projet-simulation-de-Tris/tree/main" className="linkprojet" target="_blank"> GitHub </a> 
+                </p>
               </figcaption>
-            </a>
+            </div>
             <a href="#" className="bento-item">
               <img src="./imgs/gumball.webp" alt="Projet 4" width="100%" />
               <figcaption>
