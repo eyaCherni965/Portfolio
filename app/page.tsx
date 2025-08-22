@@ -204,7 +204,28 @@ export default function Home() {
                 </p>
               </figcaption>
             </div>
+         
             <div  className="bento-item">
+            <img src="/PFLogo.png" alt="Mon Portfolio" width="90%" />
+              <figcaption>
+                <h4>Mon Portfolio</h4>
+                <div>Ce portfolio est développé avec <strong>Next.js</strong> et <strong>CSS</strong>, permettant de présenter mes <strong>projets</strong>, <strong>compétences</strong> et <strong>réalisations</strong>. Il est <strong>déployé sur Vercel</strong>, offrant un accès rapide.</div>
+                <p> 
+                <a href="https://github.com/eyaCherni965/Portfolio" className="linkprojet" target="_blank"> GitHub </a> 
+                </p>
+              </figcaption>
+            </div>
+            <div  className="bento-item">
+            <img src="/proMatchLogo.png" alt="ProMatch" width="100%" />
+              <figcaption>
+                <h4>ProMatch App + Web </h4>
+                <div>Développement d’une application et d’un site web en équipe, avec API backend sécurisée et base de données relationnelle.</div>
+                <p> 
+                <a href="/ProMatch1.pdf" className="linkprojet" target="_blank"> Description du projet</a> / <a href=" https://urls.fr/tpzA0J" className="linkprojet" target="_blank"> Code Web </a> / <a href="https://github.com/eyaCherni965/Projet-simulation-de-Tris/tree/main" className="linkprojet" target="_blank"> Code App </a> 
+                </p>
+              </figcaption>
+            </div>
+              <div  className="bento-item">
             <img src="/tris.png" alt="Simulation Tris" width="100%" />
               <figcaption>
                 <h4>Simulation de tris</h4>
@@ -214,23 +235,7 @@ export default function Home() {
                 </p>
               </figcaption>
             </div>
-            <div  className="bento-item">
-            <img src="/logoPortfolio.png" alt="Mon Portfolio" width="100%" />
-              <figcaption>
-                <h4>Mon Portfolio</h4>
-                <div>Ce portfolio est développé avec <strong>Next.js</strong> et <strong>CSS</strong>, permettant de présenter mes <strong>projets</strong>, <strong>compétences</strong> et <strong>réalisations</strong>. Il est <strong>déployé sur Vercel</strong>, offrant un accès rapide.</div>
-                <p> 
-                <a href="https://github.com/eyaCherni965/Portfolio" className="linkprojet" target="_blank"> GitHub </a> 
-                </p>
-              </figcaption>
-            </div>
-            <a href="#" className="bento-item">
-              <img src="./imgs/gumball.webp" alt="Projet 4" width="100%" />
-              <figcaption>
-                <h4>Projet 4</h4>
-                <div>Description du projet</div>
-              </figcaption>
-            </a>
+            {/*  POUR MES AUTRES PROJETS
             <a href="#" className="bento-item">
               <img src="./imgs/gumball.webp" alt="Projet 5" width="100%" />
               <figcaption>
@@ -244,10 +249,12 @@ export default function Home() {
                 <h4>Projet 6</h4>
                 <div>Description du projet</div>
               </figcaption>
-            </a>
+            </a>*/}
           </div>
         </section>
       </main>
     </>
   );
 }
+
+  
