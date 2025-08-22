@@ -220,7 +220,7 @@ export default function Home() {
                 <h4>Mon Portfolio</h4>
                 <div>Ce portfolio est développé avec <strong>Next.js</strong> et <strong>CSS</strong>, permettant de présenter mes <strong>projets</strong>, <strong>compétences</strong> et <strong>réalisations</strong>. Il est <strong>déployé sur Vercel</strong>, offrant un accès rapide.</div>
                 <p> 
-                <a href=" https://urls.fr/tpzA0J" className="linkprojet" target="_blank"> Démo </a> / <a href="https://github.com/eyaCherni965/Projet-simulation-de-Tris/tree/main" className="linkprojet" target="_blank"> GitHub </a> 
+                <a href="https://github.com/eyaCherni965/Portfolio" className="linkprojet" target="_blank"> GitHub </a> 
                 </p>
               </figcaption>
             </div>
