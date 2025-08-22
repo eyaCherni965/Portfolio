@@ -215,7 +215,7 @@ export default function Home() {
               </figcaption>
             </div>
             <div  className="bento-item">
-            <img src="/portfolio.png" alt="Mon Portfolio" width="70%" />
+            <img src="/logoPortfolio.png" alt="Mon Portfolio" width="100%" />
               <figcaption>
                 <h4>Mon Portfolio</h4>
                 <div>Ce portfolio est développé avec <strong>Next.js</strong> et <strong>CSS</strong>, permettant de présenter mes <strong>projets</strong>, <strong>compétences</strong> et <strong>réalisations</strong>. Il est <strong>déployé sur Vercel</strong>, offrant un accès rapide.</div>
