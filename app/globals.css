@@ -23,16 +23,6 @@
   --blue-800: #0a61ae;
 }
 
-@media (max-width: 600px) {
-  h1, h2 { font-size: 32px; }
-  .container { padding: 15px; }
-  .hero .hero-blue, .hero .hero-yellow { padding: 15px; }
-  .skills .holder-blue { padding: 15px; }
-  .skills .left-column ul { margin-right: 10px; }
-  .hero .hero-yellow img { max-width: 280px; }
-  .formation .jobs article { padding: 15px; }
-  .bento .bento-item { padding: 15px; }
-}
 body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -113,7 +103,7 @@ header {
 			display:none;
 			color:var(--base-800);
 			padding:10px;
-			@media (max-width:600px){
+			@media (max-width:768px){
 				display:inline-block;
 				position:absolute;
 				top:20px;
@@ -127,7 +117,7 @@ header {
 		align-items:center;
 	}
 
-	@media (max-width: 600px) {
+	@media (max-width: 768px) {
 		flex-direction:column;
 		align-items:center;
 		nav {
@@ -225,7 +215,7 @@ h1 {
     texte de présentation qui se trouve dans <span>, 
     version mobile/tablette*/
     span {
-      @media (max-width: 600px) {
+      @media (max-width: 768px) {
         display: none;
       }
     }
@@ -462,7 +452,7 @@ h3{
 		@media(max-width:1024px){
 			grid-template-rows: repeat(8, 1fr);
 		}
-		@media(max-width:600px){
+		@media(max-width:768px){
 			display:flex;
 			flex-direction:column;
 			gap:30px;
@@ -505,7 +495,7 @@ h3{
           visibility:visible;
         }
 			}
-			@media(max-width:600px){
+			@media(max-width:768px){
 				height:240px;
 			}
 			&:nth-child(1) {
