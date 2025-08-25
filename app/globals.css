@@ -7,7 +7,94 @@
 }
 
 
+.premier {
+  margin-bottom: 20px; /* Ajouter 'px' */
+  margin-top: 10px; /* Ajouter 'px' */
+}
 
+/*Amélioration de la compatibilité smobile */
+@media (max-width: 768px) {
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 14px;
+    display: inline-block; 
+    text-align:  center;
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
+  
+  .hero .hero-blue .call-to-action .button {
+    display: block; 
+    width: 200px;
+    margin: 0 auto 10px auto; 
+  
+  
+  .bento .bento-grid .bento-item {
+    padding: 15px; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  
+  .linkprojet {
+    padding: 8px 12px; 
+    margin: 2px; 
+    display: inline-block;
+    font-size: 12px;
+  }
+  
+
+  .mobile-toggle {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent; 
+  }
+  
+ 
+  .hero .hero-blue .social-links img {
+    width: 40px; 
+    height: 40px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px; 
+  }
+  
+  h2 {
+    font-size: 28px;
+    padding: 15px 5px;
+  }
+  
+  .hero .hero-blue .call-to-action .button {
+    width: 160px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .bento .bento-grid .bento-item img {
+    transition: none; 
+  }
+  
+  .formation .jobs article figure img {
+    transition: none; 
+  }
+}
+
+@media (max-width: 768px) {
+  .hero .hero-blue p {
+    margin-bottom: 15px;
+    text-align: left; 
+  }
+
+  .skills .holder-blue .left-column ul {
+    text-align: center;
+  }
+}
+}
 :root {
   --base: #555;
   --base-100: #f1f1f1;
@@ -262,7 +349,7 @@ h1 {
   }
 }
 
-.premier{margin-bottom: 20; margin-top: 10;}
+/*.premier{margin-bottom: 20; margin-top: 10;}*/
 .logos {
   background-color:rgb(241, 232, 232);
   border-radius: 30px;
@@ -569,5 +656,6 @@ h3{
 
 /*CORECTION*/
 .hero .hero-blue, .hero .hero-yellow, .skills .holder-blue, .formation .jobs article, .chatbot .chatbot-blue {
-  padding: 20px; /* Réduire de 30px à 20px */
+	padding: 20px; /* Réduire de 30px à 20px */
+
 }
