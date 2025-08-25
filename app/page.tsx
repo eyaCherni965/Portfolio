@@ -210,7 +210,7 @@ export default function Home() {
             <img src="/PFLogo.png" alt="Mon Portfolio" width="90%" />
               <figcaption>
                 <h4>Mon Portfolio</h4>
-                <div>Ce portfolio est développé avec <strong>Next.js</strong> et <strong>CSS</strong>, permettant de présenter mes <strong>projets</strong>, <strong>compétences</strong> et <strong>réalisations</strong>. Il est <strong>déployé sur Render</strong>, offrant un accès rapide.</div>
+                <div>Ce portfolio est développé avec <strong>Next.js</strong> et <strong>CSS</strong>, permettant de présenter mes <strong>projets</strong>, <strong>compétences</strong> et <strong>réalisations</strong>. Il est <strong>déployé sur Vercel</strong>, offrant un accès rapide.</div>
                 <p> 
                 <a href="https://github.com/eyaCherni965/Portfolio" className="linkprojet" target="_blank"> GitHub </a> 
                 </p>
