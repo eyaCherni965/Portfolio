@@ -125,6 +125,7 @@ export default function Home() {
                 <li>JavaScript</li>
                 <li>Next.js</li>
                 <li>React</li>
+                <li>Figma</li>
                 <li>Canva</li>
               </ul>
               <h3>Développement Backend</h3>
