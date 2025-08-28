@@ -53,7 +53,7 @@ export default function Home() {
             
               <p >En peu de temps, je suis passée d’une connaissance minime en programmation à la création de sites web et au développement d’applications fonctionnelles, tout en continuant à apprendre chaque jour. Bienvenue sur mon portfolio ! Je vous invite à parcourir mes projets et à découvrir mes compétences, mes expériences…et à partager avec moi l’aventure captivante de créer, coder et expérimenter.</p>
               <div className="call-to-action">
-                <a href="/CV-2025.pdf" className="button black" target="_blank">
+                <a href="/CV 2025.pdf" className="button black" target="_blank">
                   Voir mon CV
                 </a>
                 <a href="mailto:chernieya2010@gmail.com" className="button white" target="_blank">
