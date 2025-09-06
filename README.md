@@ -7,6 +7,7 @@ présenter mes compétences et formations,
 montrer mes projets réalisés,
 faciliter le contact avec moi via  LinkedIn.
 
+Objectif futur : Optimiser mon portfolio pour qu’il soit entièrement fonctionnel et parfaitement adapté aux mobiles.
 
 Voir le portfolio en ligne: https://portfolioe-weld.vercel.app/
 
