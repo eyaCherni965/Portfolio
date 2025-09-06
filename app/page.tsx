@@ -118,27 +118,33 @@ export default function Home() {
           </h2>
           <div className="holder-blue">
             <div className="left-column">
-              <h3>Développement Frontend</h3>
+              <h3>Langages de programmation / Frameworks</h3>
               <ul>
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
+                <li>PHP</li>
                 <li>Next.js</li>
                 <li>React</li>
-                <li>Figma</li>
-                <li>Canva</li>
-              </ul>
-              <h3>Développement Backend</h3>
-              <ul>
-                <li>C</li>
-                <li>JAVA</li>
-                <li>PHP</li>
-                <li>MYSQL</li>
-                <li>Azure</li>
-                <li>MYSQL</li>
-                <li>Microsoft Office Suite</li>
+                <li>MySQL</li>
                 <li>Bash</li>
                 <li>Assembleur</li>
+              </ul>
+              <h3>Outils de développement</h3>
+              <ul>
+                <li>VS Code</li>
+                <li>Android Studio</li>
+                <li>Git</li>
+                <li>Linux</li>
+                <li>Microsoft Office Suite</li>
+                <li>Adobe</li>
+                <li>Figma</li>
+                <li>Canva</li>
+                <li>Azure</li>    
+
               </ul>
             </div>
             <div className="right-column">
