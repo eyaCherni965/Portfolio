@@ -10,6 +10,10 @@ export default function Home() {
     setMenuOpen(!menuOpen);
   }
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <>
       <header>
@@ -20,20 +24,22 @@ export default function Home() {
         <nav>
           <ul id="menu" className={menuOpen ? "active" : ""}>
             <li>
-              <a href="#">Accueil</a>
+              <a href="#" onClick={closeMenu}>Accueil</a>
+
             </li>
             <li>
-              <a href="#skills">Compétences</a>
+              <a href="#skills" onClick={closeMenu}>Compétences</a>
             </li>
             <li>
-              <a href="#formations">Formations</a>
+              <a href="#formations" onClick={closeMenu}>Formations</a>
             </li>
             <li>
-              <a href="#projects">Projets</a>
+              <a href="#projects" onClick={closeMenu}>Projets</a>
             </li>
             <li>
-              <a href="mailto:chernieya2010@gmail.com" className="button">Contactez-moi</a>
-            </li>
+     <a href="mailto:chernieya2010@gmail.com" className="button" onClick={closeMenu}>
+                Contactez-moi </a>
+             </li>
           </ul>
           <a href="#" className="mobile-toggle" onClick={toggleMobileMenu}>
             <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -49,7 +55,7 @@ export default function Home() {
               <h1><small>Bonjour c'est</small>
                 Eya Cherni
               </h1>
-              <p className= "premier">Animée par l’envie de créer et d’innover, j’ai orienté mon parcours vers le monde de l’informatique. Mon objectif ? Continuer à grandir et faire partie de cette génération d’ingénieurs qui transforme notre société<br /></p>
+              <p className= "premier">Animée par l’envie de créer et d’innover, j’ai orienté mon parcours vers le monde de l’informatique. Mon objectif ? Continuer à grandir et faire partie de cette génération d’ingénieurs qui transforme notre société.<br /></p>
             
               <p >En peu de temps, je suis passée d’une connaissance minime en programmation à la création de sites web et au développement d’applications fonctionnelles, tout en continuant à apprendre chaque jour. Bienvenue sur mon portfolio ! Je vous invite à parcourir mes projets et à découvrir mes compétences, mes expériences…et à partager avec moi l’aventure captivante de créer, coder et expérimenter.</p>
               <div className="call-to-action">
