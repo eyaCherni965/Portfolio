@@ -142,6 +142,7 @@ export default function Home() {
               <h3>Outils de développement</h3>
               <ul>
                 <li>VS Code</li>
+                <li>IntelliJ</li>
                 <li>Android Studio</li>
                 <li>Git</li>
                 <li>Linux</li>
